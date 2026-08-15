@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Smart Parking Finder</title>
+
+    <link rel="stylesheet"
+          href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+
+<body>
+
+    <nav class="navbar">
+
+        <div class="logo">
+            🚗 Smart Parking
+        </div>
+
+        <div class="nav-links">
+            <a href="#">Home</a>
+            <a href="#">Login</a>
+            <a href="#">Register</a>
+        </div>
+
+    </nav>
+
+
+    <section class="hero">
+
+        <h1>Find Your Perfect Parking Spot</h1>
+
+        <p>
+            Search, reserve and park with ease.
+        </p>
+
+
+        <div class="search-box">
+
+            <h2>Find Available Parking</h2>
+
+            <br>
+
+            <input
+                type="text"
+                placeholder="Enter location">
+
+            <select>
+                <option value="">Vehicle Type</option>
+                <option value="car">🚗 Car</option>
+                <option value="bike">🏍️ Bike</option>
+            </select>
+
+            <br><br>
+
+            <button class="search-btn">
+                Find Parking
+            </button>
+
+        </div>
+
+    </section>
+
+
+    <section class="features">
+
+        <div class="feature-card">
+            <h3>🔍 Easy Search</h3>
+            <p>Find nearby parking locations quickly.</p>
+        </div>
+
+        <div class="feature-card">
+            <h3>📅 Easy Booking</h3>
+            <p>Reserve your parking slot in advance.</p>
+        </div>
+
+        <div class="feature-card">
+            <h3>🔐 Secure</h3>
+            <p>Your bookings and information are protected.</p>
+        </div>
+
+    </section>
+
+</body>
+
+</html>
